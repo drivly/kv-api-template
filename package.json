@@ -36,6 +36,8 @@
   "homepage": "https://github.com/drivly/kv.cf#readme",
   "dependencies": {
     "hono": "^2.0.5",
+    "itty-router": "^2.6.1",
+    "itty-router-extras": "^0.4.2",
     "toucan-js": "^2.6.1",
     "worker-auth-providers": "^0.0.10"
   },
