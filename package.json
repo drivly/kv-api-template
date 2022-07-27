@@ -1,0 +1,43 @@
+{
+  "name": "kv-api",
+  "version": "0.1.0",
+  "description": "A Cloudflare worker ",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drivly/kv.cf.git"
+  },
+  "keywords": [
+    "api",
+    "api-gateway",
+    "cloudflare",
+    "workers",
+    "durable-objects",
+    "kv",
+    "r2",
+    "service-bindings"
+  ],
+  "author": "Nathan Clevenger",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/drivly/kv.cf/issues"
+  },
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "semi": false,
+    "singleQuote": true
+  },
+  "homepage": "https://github.com/drivly/kv.cf#readme",
+  "dependencies": {
+    "hono": "^2.0.5",
+    "toucan-js": "^2.6.1",
+    "worker-auth-providers": "^0.0.10"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  }
+}
