@@ -1,12 +1,6 @@
-import { Router } from 'router'
-import APIs from './apis.json' assert {type: 'json'}
+import { Hono } from 'hono'
+const app = new Hono()
 
-const router = Router()
+app.get('/', (c) => c.text('Hono!!'))
 
-router.get('/', (req, env, ctx) => {
-  // now have access to the env (where CF bindings like durables, KV, etc now are)
-})
-
-export default {
-  fetch: router.handle // yep, it's this easy.
-}
+export default app
