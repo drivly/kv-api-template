@@ -1,0 +1,10 @@
+name = "kv-api"
+account_id = "b6641681fe423910342b9ffa1364c76d"
+main = "index.js"
+usage_model = "unbound"
+compatibility_date = "2022-06-21"
+
+[[kv_namespaces]]
+  binding = "<YOUR_NAMESPACE_0>"
+  id = "<YOUR_ID>"
+  preview_id = "<YOUR_PREVIEW_ID>"
