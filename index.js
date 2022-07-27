@@ -1,4 +1,5 @@
 import { Router } from 'router'
+import APIs from './apis.json' assert {type: 'json'}
 
 const router = Router()
 
