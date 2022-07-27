@@ -1,10 +1,10 @@
 name = "kv-api"
 account_id = "b6641681fe423910342b9ffa1364c76d"
 main = "index.js"
-usage_model = "unbound"
+# usage_model = "unbound"
 compatibility_date = "2022-06-21"
 
-[[kv_namespaces]]
-  binding = "KV_API"
-  id = "85d80461985146a4a96bfd2f9e87f209"
-  preview_id = "685da737624c4d49bb7fafccae2bccb7"
+# [[kv_namespaces]]
+#   binding = "KV_API"
+#   id = "85d80461985146a4a96bfd2f9e87f209"
+#   preview_id = "685da737624c4d49bb7fafccae2bccb7"
